@@ -6,8 +6,6 @@
 build:
   version: "1.0"
 
-
-
 cards:
   message: "Welcome to Bank Cards related production APIs "
   contactDetails:
