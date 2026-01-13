@@ -7,7 +7,7 @@ build:
 
 
 loans:
-  message: "Welcome to Bank Loans related production APIs "
+  message: "Welcome to Bank Loans related prod APIs "
   contactDetails:
     name: "Kartikeya Gupta - Developer"
     email: "kartikeyayash4@gmail.com"
