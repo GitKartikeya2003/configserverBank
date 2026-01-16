@@ -8,12 +8,28 @@ spring:
     config:
       server:
         git:
-          uri: "https://github.com/GitKartikeya2003/configserverBank.git"
+          uri: "https://github.com/GitKartikeya2003/configPropertiesBank.git"
           default-label: master
           timeout: 5
           clone-on-start: true
           force-pull: true
-        native:
-          search-locations: classpath:/config
+#        native:
+#          search-locations: classpath:/config
+
+  RabbitMQ:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+encrypt:
+  key: "602ba61e390c40f56e9982db802875d6"
 server:
   port: 8071
